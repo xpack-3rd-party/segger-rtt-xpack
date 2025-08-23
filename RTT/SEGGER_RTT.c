@@ -74,6 +74,11 @@ Additional information:
 ----------------------------------------------------------------------
 */
 
+// xPack patch.
+#if defined(__GNUC__)
+#pragma GCC diagnostic ignored "-Wcast-qual"
+#endif
+
 #include "SEGGER_RTT.h"
 
 #include <string.h>                 // for memcpy
