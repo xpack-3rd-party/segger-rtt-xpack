@@ -1,9 +1,28 @@
+# An xpm/npm package with the SEGGER RTT library
+
+This project offers a convenient method for integrating the
+[SEGGER RTT](https://github.com/SEGGERMicro/RTT.git) library
+into the xpm/npm ecosystem, enabling installation as a package dependency.
+
+The open-source project is hosted on GitHub at
+[xpack-3rd-party/segger-rtt-xpack](https://github.com/xpack-3rd-party/segger-rtt-xpack.git).
+
+In addition to the original SEGGER project, this fork provides
+a `package.json` with npm/xpm metadata and a `CMakeLists.txt` for
+seamless CMake integration.
+
+The current version is based on **v8.56a**, dated **5 August 2025**.
+
+The original README content is provided below.
+
+---
+
 RTT
 ===
 
 SEGGER RTT Sources
 
-https://www.segger.com/products/debug-probes/j-link/technology/about-real-time-transfer  
+https://www.segger.com/products/debug-probes/j-link/technology/about-real-time-transfer
 https://wiki.segger.com/RTT
 
 ## Included files
