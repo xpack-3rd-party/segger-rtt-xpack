@@ -1,11 +1,11 @@
 # An xpm/npm package with the SEGGER RTT library
 
 This project offers a convenient method for integrating the
-[SEGGER RTT](https://github.com/SEGGERMicro/RTT.git) library
+[SEGGER RTT](https://github.com/SEGGERMicro/RTT) library
 into the xpm/npm ecosystem, enabling installation as a package dependency.
 
 The open-source project is hosted on GitHub at
-[xpack-3rd-party/segger-rtt-xpack](https://github.com/xpack-3rd-party/segger-rtt-xpack.git).
+[xpack-3rd-party/segger-rtt-xpack](https://github.com/xpack-3rd-party/segger-rtt-xpack).
 
 In addition to the original SEGGER project, this fork provides
 a `package.json` with npm/xpm metadata and a `CMakeLists.txt` for
