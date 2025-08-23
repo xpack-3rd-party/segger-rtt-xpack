@@ -1,6 +1,6 @@
 {
   "name": "@xpack-segger/rtt",
-  "version": "8.56.1-1.pre",
+  "version": "8.56.1-1",
   "description": "A source library with SEGGER RTT support",
   "main": "",
   "scripts": {},
@@ -40,7 +40,6 @@
     "actions": {
       "xpm-link": "xpm link",
       "git-log": "git log --pretty='%cd * %h %s' --date=short"
-
     },
     "buildConfigurations": {}
   }
