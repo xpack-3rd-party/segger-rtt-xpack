@@ -3,7 +3,10 @@
   "version": "8.56.1-2",
   "description": "A source library with SEGGER RTT support",
   "main": "",
-  "scripts": {},
+  "scripts": {
+    "postversion": "git push origin --all && git push origin --tags",
+    "git-log": "git log --pretty='%cd * %h %s' --date=short"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xpack-3rd-party/segger-rtt-xpack.git",
@@ -38,8 +41,7 @@
     "devDependencies": {},
     "properties": {},
     "actions": {
-      "xpm-link": "xpm link",
-      "git-log": "git log --pretty='%cd * %h %s' --date=short"
+      "xpm-link": "xpm link"
     },
     "buildConfigurations": {}
   }
