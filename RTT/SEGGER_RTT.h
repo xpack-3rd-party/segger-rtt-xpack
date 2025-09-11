@@ -59,6 +59,8 @@ Revision: $Rev: 25842 $
 #define SEGGER_RTT_H
 
 #include "SEGGER_RTT_Conf.h"
+// xPack patch.
+#include "SEGGER_RTT_ConfDefaults.h"
 
 /*********************************************************************
 *

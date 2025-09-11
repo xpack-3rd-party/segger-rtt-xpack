@@ -41,6 +41,7 @@ add_library(segger-rtt-interface INTERFACE EXCLUDE_FROM_ALL)
 # Target settings.
 target_include_directories(segger-rtt-interface INTERFACE
   "RTT"
+  "include"
 )
 
 target_sources(segger-rtt-interface INTERFACE
