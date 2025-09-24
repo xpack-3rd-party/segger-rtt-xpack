@@ -13,6 +13,31 @@ seamless CMake integration.
 
 The current version is based on **v8.56a**, dated **5 August 2025**.
 
+## How to use
+
+### Install
+
+The easiest method to install the library into a project is via `xpm`:
+
+```sh
+xpm install github:xpack-3rd-party/segger-rtt-xpack#v8.56.1-2
+```
+
+### Template files
+
+In the `templates` folder there is a header file;
+copy them into the project, and possibly update it.
+
+### CMake
+
+If the project uses CMake, include the `CMakeLists.txt` and the
+`segger::rtt` to the build.
+
+### Other builders
+
+Otherwise manually add the include folders and the source files mentioned in
+the `CMakeLists.txt` to the build configuration.
+
 ---
 
 The original README content is provided below.
