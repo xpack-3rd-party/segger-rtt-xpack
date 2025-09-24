@@ -13,6 +13,8 @@ seamless CMake integration.
 
 The current version is based on **v8.56a**, dated **5 August 2025**.
 
+---
+
 The original README content is provided below.
 
 ---
