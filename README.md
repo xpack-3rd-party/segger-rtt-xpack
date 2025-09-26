@@ -13,6 +13,14 @@ seamless CMake integration.
 
 The current version is based on **v8.56a**, dated **5 August 2025**.
 
+Changes:
+
+- the `Config/SEGGER_RTT_Conf.h` file was copied as
+`include/SEGGER_RTT_ConfDefaults.h` and slightly updated
+- `RTT/SEGGER_RTT.h` was edited to include it
+- warnings were silenced in `RTT/SEGGER_RTT.c`
+- the `templates/include/SEGGER_RTT_Conf.h` was added; copy it to your project.
+
 ## How to use
 
 ### Install
